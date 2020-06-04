@@ -1,0 +1,116 @@
+{{> header}}
+{{> navbar}}
+<div>
+    <h1>Pintores</h1>
+    {{#if Pintores}}
+    <table class="table table-dark table-dark">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Nombre</td>
+                <td>Nacionalidad</td>
+                <td>Corriente</td>
+                <td>Imagen</td>
+            </tr>
+        </thead>
+        <tbody>
+        {{#each pintores}}
+            <tr>
+                <td>{{_id}}</td>
+                <td>{{nombre}}</td>
+                <td>{{nacionalidad}}</td>
+                <td>{{corriente}}</td>
+                <td> <img src="../images/{{pintura}}"> </td>
+            </tr>
+        {{/each}}            
+            <p>
+            Bonitas palabras del pintor escandinavo. Podemos así llegar a entender su pintura, tan extraña y perturbadora que incluso se aconsejó a las mujeres embarazadas no ver sus cuadros. <br>
+            En efecto al arte de Munch lo marcaría un padre excesivamente severo, una infancia enfermiza y el trauma infantil de presenciar la muerte de su madre y una hermana. Quizás su alcoholismo tampoco ayudó. <br>
+            Varios psiquiatras/historiadores del arte afirman que el pintor sufría de trastorno bipolar, como Van Gogh, pero en noruego. Quizás por eso empezó a pintar así. <br>
+            Sea como sea, esto hizo avanzar otro paso al simbolismo hasta convertirlo en lo que en el futuro se conoció como expresionismo, movimiento que tan bien ilustra el alma humana. <br>
+            Aunque aquí, lejos de ser individualista, Munch explora y reflexiona en torno a temas que involucraban a la sociedad. «Ansiedad» (ya el título nos da una pista) refleja el sentir de una colectividad desequilibrada que vive bajo el yugo de la incertidumbre del mundo moderno, algo parecido a lo que ocurría con la similar «Anochecer». <br>
+            El pintor muestra un evento apocalíptico e irreversible en el que las personas deambulan hacia su propia muerte, con el cielo del atardecer teñido de rojo sangre, mientras atraviesan una ciudad que ya no es suya. <br>
+            </p>
+
+        </tbody>
+        <tbody>
+        {{#each pintores}}
+            <tr>
+                <td>{{_id}}</td>
+                <td>{{nombre}}</td>
+                <td>{{nacionalidad}}</td>
+                <td>{{corriente}}</td>
+                <td> <img src="../images/{{pintura}}"> </td>
+            </tr>
+        {{/each}}
+            <p>
+            Un individuo pensativo en la playa mira hacia el horizonte. Su estado de ánimo tiene un reflejo en la línea de costa ondulante y en el cielo serpenteante típico del pincel del pintor. Mirada perdida, actitud absorta, mano apoyada en la cara, aislado del resto de la humanidad (representada en esa gente apenas visible del fondo)… Este personaje siente melancolía, como bien dice el título de Munch. <br>
+            La palabra melancolía proviene del griego μέλας «negro» y χολή «bilis» es decir, «bilis negra», uno de los cuatro humores del ser humano, o lo que es lo mismo: la tristeza. Una emoción básica del ser humano que nadie quiere sentir, pero que se ve obligado a sentir de vez en cuando. <br>
+            Y si hay un artista experto en tristeza, depresión y melancolía, ese es Munch, que basó buena parte de su producción pictórica a estos desagradables temas. Desagradable trabajo, pero alguien debe de hacerlo. <br>
+            El arte triste es necesario. Es bello, porque nos toca, y además nos toca en lo más profundo. Y sirve de válvula de escape tanto el crearlo como el disfrutarlo. Lo importante es que esa tristeza, como el resto de emociones, no sea permanente. Que exista un balance equilibrado entre todas ellas. <br>
+            Y para cuando llega la melancolía, para cuando nos sintamos como este personaje en la playa, ahí tenemos el arte triste como el de Munch para ayudarnos y consolarnos, y quizás sacar algo en limpio de eso.  <br> 
+            </p>
+
+        </tbody>
+        <tbody>
+        {{#each pintores}}
+            <tr>
+                <td>{{_id}}</td>
+                <td>{{nombre}}</td>
+                <td>{{nacionalidad}}</td>
+                <td>{{corriente}}</td>
+                <td> <img src="../images/{{pintura}}"> </td>
+            </tr>
+        {{/each}}
+            <p>
+            'El Grito' es una de las obras más representativas del movimiento Expresionista y uno de los trabajos más famosos de Edvard Munch (1863 - 1944). El artista noruego realizó una serie de cuatro versiones y la más reconocida está ubicada en la Galería Nacional de Noruega. Otras dos de las versiones de 'El Grito' se encuentran en el Museo Munch, mientras que la cuarta pertenece a una colección particular. <br>
+            Todo el mundo conoce este cuadro. Sobre él abundan los libros, tesis y posts en internet. Todos podemos sentirnos identificados con su mensaje: el humano moderno en un momento de profunda angustia y desesperación existencial. Es un mensaje universal, que trasciende de sexos, razas y nacionalidades. Por ello “El grito” es considerado uno de los cuadros más importantes de la historia del arte. <br>
+            Munch se inspiró en su propia vida atormentada, una tragedia sobre un padre severo, una madre muerta y unas hermanas enfermas, trastornos bipolares y depresión, alcohol y armas de fuego. El propio Munch nos cuenta de donde surgió la idea en su diario de 1892: <br></p>  
+            <div class="content-box-gray">
+                "Paseaba por un sendero con dos amigos – el sol se puso – de repente el cielo se tiñó de rojo sangre, me detuve y me apoyé en una valla muerto de cansancio – sangre y lenguas de fuego acechaban sobre el azul oscuro del fiordo y de la ciudad – mis amigos continuaron y yo me quedé quieto, temblando de ansiedad, sentí un grito infinito que atravesaba la naturaleza."
+            </div>
+            <p>La obra, aunque no es muy bonita, tuvo un enorme éxito de crítica. La gente iba a ver el cuadro en masa y hubo cierta controversia (incluso se aconsejó a las mujeres embarazadas que no visitaran la exposición). <br>
+            Al final se convirtió en uno de los cuadros más famosos de finales del siglo XIX (que evoca los futuros horrores que se avecinaban en Europa) y hoy es considerada una especie de Mona Lisa moderna.
+            </p>
+        </tbody>
+        <tbody>
+        {{#each pintores}}
+            <tr>
+                <td>{{_id}}</td>
+                <td>{{nombre}}</td>
+                <td>{{nacionalidad}}</td>
+                <td>{{corriente}}</td>
+                <td> <img src="../images/{{pintura}}"> </td>
+            </tr>
+        {{/each}}
+            <p>
+            La pintura representa a una bella dama de cabellos rojizos y tez blanquecina que abraza consoladoramente a un hombre vestido que se derrumba en su regazo; la joven es la representación del amor que consuela cariñosamente al dolor representado por la figura masculina. En realidad los personajes son una joven modelo que a menudo posaba para el artista y Adolf Paul amigo del pintor; según contaba el propio Paul, estando él un día en el estudio de Munch el artista incitó a la joven pelirroja a posar abrazando a su amigo. <br>
+            La leyenda surgida con posterioridad habla de cómo la joven representa a una vampiresa que muerde apasionadamente a su víctima mientras éste se entrega lánguidamente a ella en un abrazo letal. <br>
+            Los rostros de los personajes no muestran demasiados detalles, en realidad no se trata de ningún retrato sino de la representación de emociones. La obra del noruego expresa como pocas la dualidad existente entre el dolor y el amor, entre el querer y el no ser correspondido y si el hombre cae apesadumbrado sobre el regazo de la dama, parece que ella pretenda atraparlo en su seno, quizás en alusión a la madre o la hermana que el artista perdió cuando todavía era demasiado joven. <br>
+            </p>
+        </tbody>
+        <tbody>
+        {{#each pintores}}
+            <tr>
+                <td>{{_id}}</td>
+                <td>{{nombre}}</td>
+                <td>{{nacionalidad}}</td>
+                <td>{{corriente}}</td>
+                <td> <img src="../images/{{pintura}}"> </td>
+            </tr>
+        {{/each}}
+            <p>
+            “Yo no pinto lo que veo, sino lo que vi”, decía Munch. Así, Este cuadro pintado en 1895, nos deja entrever un área general de tristeza a través de los rostros de los personajes y de los colores empleados. Forma parte de El friso de la vida, concretamente a la serie final dedicada a la muerte donde el autor recuerda sus momentos más dolorosos, como la citada muerte de su joven hermana. La cama de la enferma está vacía, mostrándonos una evidencia de que acaba de morir. <br>
+            Esta es una de las obras donde más abiertamente combina los temas de la enfermedad y la muerte. Es fruto de una experiencia personal del artista: la muerte por tuberculosis de su hermana; hecho que lo marcó fuertemente, y contribuyó a las temáticas que desarrollaría a lo largo de toda su carrera. <br>
+            Él mismo es el hombre que mira hacia la silla, donde se encuentra hermana ya muerta o agonizando. <br>
+            Sobre este cuadro el propio autor dijo: <br>
+            </p>
+        </tbody>
+    </table>
+    {{ else}}
+        <div>No se encuentran pintores</div>
+    {{/if}}
+
+</div>
+
+{{> footer}}
